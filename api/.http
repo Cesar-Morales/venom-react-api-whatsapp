@@ -1,0 +1,16 @@
+//Conectarla
+POST http://localhost:5000/cambiar-estado
+Content-Type: application/json
+
+[{
+    "conectada" : true
+}]
+#############################################################################################
+
+//Conectarla
+POST http://localhost:5000/cambiar-estado
+Content-Type: application/json
+
+[{
+    "conectada" : false
+}]
